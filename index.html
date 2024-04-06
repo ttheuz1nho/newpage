@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Land Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="menu.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+
+            <!-- Computador -->
+
+            <i class="fa-regular fa-lemon" id="nav_logo"> Food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars" ></i>
+            </button>
+
+        </nav>
+
+        <!-- MOBILE -->
+
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav-item">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials">Avaliações</a>
+                    </li>
+                </ul>
+
+                <button class="btn-default">
+                    Peça aqui
+                </button>
+            </div>
+
+
+        
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até <span>você</span>
+                </h1>
+                <P class="DESCRIPTION">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo dolores natus culpa earum ab eligendi. Saepe maxime molestiae hic quis iure eligendi nobis ex commodi officia. Libero, facere culpa!</P>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default">ver cardápio</a>
+                    <a href="tel:+5555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                            
+                        </button>
+                        (11) 97632-0952
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/ttheuz1nho" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                
+            </div>
+
+
+            <div id="banner">
+                <img src="images/hero.png" alt="Pratos-main">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section0subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish.png" class="dish-heart" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatibus ea id neque quo optio aliquam similique, adipisci molestiae eum esse sint cumque natus inventore libero cum odit assumenda et.
+                    </h3>
+                    <SPan class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam laudantium iure ducimus perspiciatis dignissimos fugiat enim nobis unde, vitae qui numquam repellendus error quas a, ipsa iusto officia pariatur.</SPan>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                
+                </div>
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish2.png" class="dish-heart" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatibus ea id neque quo optio aliquam similique, adipisci molestiae eum esse sint cumque natus inventore libero cum odit assumenda et.
+                    </h3>
+                    <SPan class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam laudantium iure ducimus perspiciatis dignissimos fugiat enim nobis unde, vitae qui numquam repellendus error quas a, ipsa iusto officia pariatur.</SPan>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish3.png" class="dish-heart" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatibus ea id neque quo optio aliquam similique, adipisci molestiae eum esse sint cumque natus inventore libero cum odit assumenda et.
+                    </h3>
+                    <SPan class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam laudantium iure ducimus perspiciatis dignissimos fugiat enim nobis unde, vitae qui numquam repellendus error quas a, ipsa iusto officia pariatur.</SPan>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish4.png" class="dish-heart" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatibus ea id neque quo optio aliquam similique, adipisci molestiae eum esse sint cumque natus inventore libero cum odit assumenda et.
+                    </h3>
+                    <SPan class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam laudantium iure ducimus perspiciatis dignissimos fugiat enim nobis unde, vitae qui numquam repellendus error quas a, ipsa iusto officia pariatur.</SPan>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
