@@ -1,0 +1,46 @@
+CTRL+SHIFT+P - WRAP - SELECIONAR O CÓDIGO QUE QUER UTILIZAR = Seleciona uma parte do texto para aderir ao código escolhido.
+
+<PRE> = printar o texto igual a maneira que vc escreveu o código. ou seja, qualquer ponto/espaço/quebra de linha, aparece no resultado final.7
+
+-----------------------------------------------------
+
+IFRAME:
+iframe: Cria um quadro do qual você pode inserir o que quiser como imagem, video, site inteiros etc.
+sandbox="sandbox" = deixar o iframe mais seguro
+referrerpolicy="no-referrer" = não coleta dados a partir do iframe (+ seguro)
+
+/*Da para alterar a dimensão no CSS*/
+
+
+Criando uma interação com o iframe:
+
+<h2>Escolhas uma das opções abaixo:</h2>
+        <ul>
+            <li><a href="Paginas/pag001.html" target="iframe">Pagina 1</a></li>
+            <li><a href="Paginas/pag002.html" target="iframe">Pagina 2</a></li>
+            <li><a href="Paginas/pag003.html" target="iframe">Pagina 3</a></li>
+        </ul>
+        <p>Veja abaixo a Pagina que você selecionou</p>
+        <iframe src="" name="iframe" frameborder="0" width="300px" height="300px" ></iframe>
+
+-------------------------------------------------------------------
+
+POSIÇÕES:
+
+position: relative = Permite utilizar os cod. top / left para informar quandos pixels eles devem subir / descer.
+
+transform: translate (-3px, -3px); = move os objetos para outra posição, muito semelhante ao position relative, porém, pode ser utilizado em :hover.
+
+------------------------------------------------------------------
+
+BORDAS:
+
+box-sizing: border-box; = borda faz parte da caixa, ou seja é medida junto, muito útil quando você útiliza o margin:hover para sublinhar irtens quando passar o mouse em cima.
+
+------------------------------------------------------------------
+
+SCROLLBAR:
+
+::webkit-scrollbar{
+width: 0px;
+height: 0px;}
