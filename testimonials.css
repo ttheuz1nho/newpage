@@ -13,7 +13,7 @@
 }
 
 #testimonials .section-subtitle{   
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #testimonials_content{
@@ -57,16 +57,45 @@ justify-content: space-between;
     
 }
 
+@media screen and (max-width: 1170px){
+    #testimonials{
+        flex-direction: column;
+    }
+    #testimonials .section-subtitle{
+        text-align: center;
+        font-size: 2rem;
+    }
+    #testimonials_chef{
+        display: none;
+    }
+    #testimonials_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #testimonials .section-subtitle{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .feedback{
+        flex-direction: column;
+    }
+}
+
+
+
+
 
 
 /*
 
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TERMINAR~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ~  Buscar o problema do .feedback, provavelmente esta no HTML.      feito             ~
-    ~  Vc parou em 1:05:25 do video                                                  ~
+                                         ~
     ~  https://www.youtube.com/watch?v=8V3mw1w6h0U&t=4016s&ab_channel=LarissaKich    ~
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 */
